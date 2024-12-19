@@ -1,0 +1,26 @@
+@keyframes shine {
+	0%, 10% {
+		background-position: -1000px;
+	}
+	20% {
+		background-position: top left;
+	}
+	90% {
+		background-position: top right;
+	}
+	100% {
+		background-position: 1000px;
+	}
+}
+
+.shine {
+  background: linear-gradient(to right, #222, #fff, #222);
+  background-size: 100px;
+  background-clip: text;
+  color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.shine:hover {
+  animation: shine 5s infinite;
+}

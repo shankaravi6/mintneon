@@ -1,0 +1,25 @@
+.glass-shade {
+    position: relative;
+}
+
+.glass-shade::after {
+    content: "";
+    position: absolute;
+    top: -35px;
+    left: 225px;
+    display: inline-block;
+    height: 320px;
+    width: 400px;
+    background: rgba(255, 255, 255, .07);
+    backdrop-filter: blur(9px);
+    transition: all 1s ease;
+    border-radius: 15px;
+    transform: translateY(0px);
+}
+
+.glass-shade:hover::after {
+    background: rgba(255, 255, 255, .15);
+    transition: all 1s ease;
+    transform: translateY(-15px);
+
+}

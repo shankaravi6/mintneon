@@ -1,0 +1,43 @@
+.roadmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.roadmap-svg {
+  width: 100%;
+  height: auto;
+}
+
+.timeline-card {
+  position: absolute;
+  background: rgb(140 255 243 / 15%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  font-family: Arial, sans-serif;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.timeline-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.timeline-card p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+}
