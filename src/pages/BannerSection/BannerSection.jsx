@@ -42,7 +42,7 @@ const BannerSection = ({ scrollProgress }) => {
 
   }, []);
   return (
-    <CrxSection m='0 auto 0 auto'>
+    <CrxSection m='0 auto 0 auto' p='0 2rem'>
       <CrxCenterContainer className="flex-col gap-5">
         <CrxFlex
           style={{
@@ -58,10 +58,12 @@ const BannerSection = ({ scrollProgress }) => {
             justifyContent: "center",
           }}
           dir="column"
-          m="-155px 0 0 0"
+          m="-125px 0 0 0"
+          sm='55px 0 0 0'
+          sp='0 2rem'
         >
-          <CrxMainTitle ref={textRef} fs="5rem" ls='0.5rem'>MINTNEON FOR LIFE</CrxMainTitle>
-          <CrxSubTitle2 ta='center' fs="2rem">
+          <CrxMainTitle ref={textRef} fs="clamp(2.5rem, 5vw, 5rem)" ls='0.5rem'>MINTNEON FOR LIFE</CrxMainTitle>
+          <CrxSubTitle2 ta='center' fs="clamp(1rem, 5vw, 2rem)">
             Welcome to MintNeon, where the future of digital currency and
             decentralized finance comes to life. Our platform combines innovation, security, and transparency to redefine the way you interact with financial systems
           </CrxSubTitle2>

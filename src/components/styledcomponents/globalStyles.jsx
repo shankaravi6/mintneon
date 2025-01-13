@@ -44,6 +44,7 @@ export const CrxCenterContainer = CrxComponent(styled.div`
   background: ${(props) => (props.bg ? props.bg : `unset`)};
   @media screen and (max-width: 768px) {
     max-width: 1300px;
+    height:unset;
   }
 `);
 
@@ -97,6 +98,7 @@ export const CrxFlex = CrxComponent(styled.div`
   @media screen and (max-width: 970px) {
     flex-direction: ${(props) => (props.sm_dir ? props.sm_dir : "column")};
     padding: ${(props) => (props.sp ? props.sp : "none")};
+    margin: ${(props) => (props.sm ? props.sm : "unset")};
     align-items: ${(props) => (props.sal ? props.sal : "center")};
     justify-content: ${(props) => (props.sjc ? props.sjc : "center")};
     width: ${(props) => (props.sw ? props.sw : "unset")};

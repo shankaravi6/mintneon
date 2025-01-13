@@ -18,15 +18,15 @@ const PricingSection = () => {
   return (
     <CrxSection p='5rem 0 5rem 0'>
       <Fade>
-        <CrxFlex dir="column" gap="5px">
-          <CrxSubTitle fs="5rem">Plans that scale with you</CrxSubTitle>
-          <CrxTypography fs="2rem">
+        <CrxFlex sp="2rem" dir="column" gap="5px">
+          <CrxSubTitle fs="clamp(2rem, 5vw, 5rem)">Plans that scale with you</CrxSubTitle>
+          <CrxTypography fs="clamp(1rem, 5vw, 1.75rem)">
             Choose a plan that's right for you
           </CrxTypography>
         </CrxFlex>
-        <CrxFlex p="2.5rem 0 0 0">
-          <CrxGrid columns="repeat(3, 1fr)">
-            <CrxGlassCard p="1rem 2rem 2rem 2rem" h="100%">
+        <CrxFlex p="2.5rem 0 0 0" sp='2.5rem 0 4rem 0'>
+          <CrxGrid columns="repeat(3, 1fr)" sm_gap='2rem' xs_gap='2rem'>
+            <CrxGlassCard p="1rem 2rem 2rem 2rem" h="100%" sh="auto">
               <CrxFlex gap=".5rem" dir="column" jc="left" al="start">
                 <CrxSubTitleNor>Silver Plan</CrxSubTitleNor>
                 <CrxTypography fs="1rem" className="pb-5">
@@ -35,7 +35,7 @@ const PricingSection = () => {
               </CrxFlex>
               <hr style={{ border: ".88px solid rgb(255 255 255 / 15%)" }} />
               <CrxFlex p="0.25rem 0" dir="column" gap="1rem">
-                <CrxSubTitle2 fs="5rem">$ 300</CrxSubTitle2>
+                <CrxSubTitle2 fs="clamp(4rem, 5vw, 5rem)">$ 300</CrxSubTitle2>
                 <CrxFlex dir="column" al="start" gap="1.5rem">
                   <CrxTypography fs="1rem">
                     7% monthly ROI in OBD tokens
@@ -50,7 +50,7 @@ const PricingSection = () => {
                 </CrxFlex>
               </CrxFlex>
             </CrxGlassCard>
-            <CrxCard p="1rem 2rem" h="100%">
+            <CrxCard p="1rem 2rem" h="100%" sh="auto">
               <CrxFlex gap=".5rem" dir="column" jc="left" al="start">
                 <CrxSubTitleNor>Platinum Plan</CrxSubTitleNor>
                 <CrxTypography fs="1rem" className="pb-5">
@@ -59,7 +59,7 @@ const PricingSection = () => {
               </CrxFlex>
               <hr style={{ border: ".88px solid rgb(255 255 255 / 15%)" }} />
               <CrxFlex p="0.25rem 0" dir="column" gap="1rem">
-                <CrxSubTitle2 fs="5rem">$ 1000</CrxSubTitle2>
+                <CrxSubTitle2 fs="clamp(4rem, 5vw, 5rem)">$ 1000</CrxSubTitle2>
                 <CrxFlex dir="column" al="start" gap="1.5rem">
                   <CrxTypography fs="1rem">
                     7% monthly ROI in OBD tokens
@@ -76,7 +76,7 @@ const PricingSection = () => {
                 </CrxFlex>
               </CrxFlex>
             </CrxCard>
-            <CrxGlassCard p="1rem 2rem" h="100%">
+            <CrxGlassCard p="1rem 2rem" h="100%" sh="auto">
               <CrxFlex gap=".5rem" dir="column" jc="left" al="start">
                 <CrxSubTitleNor>Gold Plan</CrxSubTitleNor>
                 <CrxTypography fs="1rem" className="pb-5">
@@ -85,7 +85,7 @@ const PricingSection = () => {
               </CrxFlex>
               <hr style={{ border: ".88px solid rgb(255 255 255 / 15%)" }} />
               <CrxFlex p="0.25rem 0" dir="column" gap="1rem">
-                <CrxSubTitle2 fs="5rem">$ 2500</CrxSubTitle2>
+                <CrxSubTitle2 fs="clamp(4rem, 5vw, 5rem)">$ 2500</CrxSubTitle2>
                 <CrxFlex dir="column" al="start" gap="1.5rem">
                   <CrxTypography fs="1rem">
                     7% monthly ROI in OBD tokens

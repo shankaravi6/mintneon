@@ -32,13 +32,13 @@ const NavBar = () => {
       </NavSection>
 
       {isMenuOpen && (
-        <FullScreenMenu>
+        <FullScreenMenu bg='#0a0008'>
           <CloseIconWrapper onClick={toggleMenu}>
             <FiX size={24} />
           </CloseIconWrapper>
           <CrxFlex gap="25px" className="menu-links">
             <NavLinks />
-            <NavButtons/>
+            {/* <NavButtons/> */}
           </CrxFlex>
         </FullScreenMenu>
       )}

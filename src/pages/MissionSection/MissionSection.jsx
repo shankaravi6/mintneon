@@ -19,16 +19,16 @@ const MissionSection = () => {
   return (
     <CrxSection p='5rem 0 5rem 0'>
       <Fade>
-        <CrxFlex dir="column" gap="5px">
-          <CrxSubTitle fs="5rem">Our Mission and Vision</CrxSubTitle>
+        <CrxFlex sp='3rem 0 0 0' dir="column" gap="5px">
+          <CrxSubTitle fs="clamp(2rem, 5vw, 5rem)">Our Mission and Vision</CrxSubTitle>
         </CrxFlex>
-        <CrxGrid p='2.5rem 0' columns='repeat(2, 1fr)' gap='5rem'>
-            <CrxGlassCard w='100%' h='225px' p='1.25rem 2.5rem'>
+        <CrxGrid p='2.5rem 0' columns='repeat(2, 1fr)' gap='5rem' sm_gap='2.5rem' xs_gap='2.5rem'>
+            <CrxGlassCard w='100%' h='225px' sw='300px' sh='auto' p='1.25rem 2.5rem'>
                 <CrxFlex gap='1rem' dir='column' jc='start' al='start'>
                 <Fade direction="up" delay={1}>
                 <CrxFlex jc='start' al='start' gap='1rem'>
-                    <CrxGlassCard bg='rgb(169 30 100 / 43%)' w='50px' h='50px'>
-                        <CrxFlex h='100%'><GrAchievement color='#e7e3e3bf' fontSize='22px' /></CrxFlex>
+                    <CrxGlassCard bg='rgb(169 30 100 / 43%)' w='50px' h='50px' sw='50px' sh='50px'>
+                        <CrxFlex h='100%' sh='100%'><GrAchievement color='#e7e3e3bf' fontSize='22px' /></CrxFlex>
                     </CrxGlassCard>
                     <CrxSubTitle2 fs='2rem'>Mission</CrxSubTitle2>
                 </CrxFlex>
@@ -40,12 +40,12 @@ const MissionSection = () => {
                 </Fade>
                 </CrxFlex>
             </CrxGlassCard>
-            <CrxGlassCard w='100%' h='225px' p='1.25rem 2.5rem'>
+            <CrxGlassCard w='100%' h='225px' sw='300px' sh='auto' p='1.25rem 2.5rem'>
                 <CrxFlex gap='1rem' dir='column' jc='start' al='start'>
                 <Fade direction="up" delay={1}>
                 <CrxFlex jc='start' al='start' gap='1rem'>
-                    <CrxGlassCard bg='rgb(169 30 100 / 43%)' w='50px' h='50px'>
-                        <CrxFlex h='100%'><GrGrow color='#e7e3e3bf' fontSize='22px' /></CrxFlex>
+                    <CrxGlassCard bg='rgb(169 30 100 / 43%)' w='50px' h='50px' sw='50px' sh='50px'>
+                        <CrxFlex h='100%' sh='100%'><GrGrow color='#e7e3e3bf' fontSize='22px' /></CrxFlex>
                     </CrxGlassCard>
                     <CrxSubTitle2 fs='2rem'>Vision</CrxSubTitle2>
                 </CrxFlex>

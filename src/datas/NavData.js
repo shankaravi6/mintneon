@@ -2,26 +2,26 @@ export const navLinks = [
     {
         id:1,
         name:'Home',
-        to:'/home'
+        to:'/'
     },
     {
         id:2,
         name:'About',
-        to:'/about'
+        to:'/'
     },
     {
         id:3,
         name:'Services',
-        to:'/services'
+        to:'/'
     },
     {
         id:4,
         name:'Ecosystem',
-        to:'/ecosystem'
+        to:'/'
     },
     {
         id:5,
         name:'Contact Us',
-        to:'/Contactus'
+        to:'/'
     }
 ]
