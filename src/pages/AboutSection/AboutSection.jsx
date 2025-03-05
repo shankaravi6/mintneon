@@ -10,6 +10,7 @@ import Spline from "@splinetool/react-spline";
 import { Fade, Hinge } from "react-awesome-reveal";
 import "./AboutSection.css";
 import useResponsiveLayout from "../../hooks/useResponsiveLayout";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const AboutSection = forwardRef((props, ref) => {
   const [isVisible, setIsVisible] = useState(false);
