@@ -70,7 +70,7 @@ const AboutSection = forwardRef((props, ref) => {
               </CrxTypography>
           </CrxBox>
           <CrxBox w="100%" h="500px" sw='100%' sh='300px'>
-            <Spline scene="https://prod.spline.design/VLYqo-y3jEqHlsCC/scene.splinecode" />
+             <DotLottieReact src="https://lottie.host/36b4d9c4-1e55-49b4-ae84-ee0d43d8ca8a/ecg8iDsHIJ.lottie" loop autoplay />
           </CrxBox>
         </CrxFlex>
       </Fade>
