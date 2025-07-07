@@ -12,6 +12,7 @@ import {
   CrxSubTitle2,
   CrxCustDiv,
   CrxCard,
+  CrxImg,
 } from "../../components/styledcomponents/globalStyles";
 import { Fade } from "react-awesome-reveal";
 import Spline from "@splinetool/react-spline";
@@ -21,7 +22,7 @@ import useResponsiveLayout from "../../hooks/useResponsiveLayout";
 const KeySection = () => {
   const lenisRef = useRef(null);
   const [leftTitle, setLeftTitle] = useState(
-    "https://lottie.host/36b4d9c4-1e55-49b4-ae84-ee0d43d8ca8a/ecg8iDsHIJ.lottie"
+    "https://static.vecteezy.com/system/resources/previews/014/529/533/original/protection-icon-security-icon-3d-rendering-png.png"
   ); // Default left title
 
   useEffect(() => {
@@ -150,7 +151,9 @@ const KeySection = () => {
               {/* Left Side: Fully Sticky */}
               <CrxFlex w="40%" h="100vh" className="sticky top-0">
                 <CrxCard w="500px" h="400px" p="2rem">
-                  <DotLottieReact src={leftTitle} loop autoplay />
+                  <CrxFlex gap="1rem">
+                    <CrxImg style={{ opacity: 0.8 }} src={leftTitle} w="70%" />
+                  </CrxFlex>
                   {/* <Spline scene={leftTitle} /> */}
                   {/* <CrxSubTitle2 ta="center">{leftTitle}</CrxSubTitle2> */}
                 </CrxCard>
@@ -163,7 +166,7 @@ const KeySection = () => {
                   h="100vh"
                   dir="column"
                   className="fea_tab"
-                  data-title="https://lottie.host/36b4d9c4-1e55-49b4-ae84-ee0d43d8ca8a/ecg8iDsHIJ.lottie"
+                  data-title="https://static.vecteezy.com/system/resources/previews/014/529/533/original/protection-icon-security-icon-3d-rendering-png.png"
                   gap="1.5rem"
                   al="start"
                 >
@@ -184,7 +187,7 @@ const KeySection = () => {
                   h="100vh"
                   dir="column"
                   className="fea_tab"
-                  data-title="https://lottie.host/a0eb3184-bad4-4d16-aff4-4de118fbc4ff/4Oo3ZvbvPb.lottie"
+                  data-title="https://static.vecteezy.com/system/resources/previews/023/956/851/non_2x/technology-access-control-3d-illustration-free-png.png"
                   gap="1.5rem"
                 >
                   <CrxSubTitle2>Accessibility and ease of use</CrxSubTitle2>
@@ -203,7 +206,7 @@ const KeySection = () => {
                   h="100vh"
                   dir="column"
                   className="fea_tab"
-                  data-title="https://lottie.host/96a4d787-dc18-40da-9de2-aa6ebb27829b/tmBZefpwnt.lottie"
+                  data-title="https://cdn3d.iconscout.com/3d/premium/thumb/roi-3d-icon-download-in-png-blend-fbx-gltf-file-formats--investment-money-return-on-shopping-pack-e-commerce-icons-12247435.png?f=webp"
                   gap="1.5rem"
                 >
                   <CrxSubTitle2>Daily ROI distribution</CrxSubTitle2>
@@ -221,7 +224,7 @@ const KeySection = () => {
                   h="100vh"
                   dir="column"
                   className="fea_tab"
-                  data-title="https://lottie.host/659786cb-e7a6-4bef-ae45-08e4b39cfaef/SdTrwjuLwg.lottie"
+                  data-title="https://images.ctfassets.net/u00r7c0tdztm/6xmKJUbM15yJQbc6WdipPM/d763ff28f9596d81ef1c4088c8f81c34/Stacking_Second_02_1.png"
                   gap="1.5rem"
                 >
                   <CrxSubTitle2>
